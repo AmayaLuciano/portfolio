@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import propertyImg from '../public/assets/projects/property.jpg';
 import cryptoImg from '../public/assets/projects/cryptoprice.png';
 import simplecart from '../public/assets/projects/simplecart2.png';
