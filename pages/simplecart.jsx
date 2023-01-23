@@ -26,7 +26,11 @@ const property = () => {
             exercitationem veniam dolores!
           </p>
           <button className="px-8 py-2 mt-4 mr-8 shadow-lg dark:shadow-gray-600">
-            <a href="https://cart-redux-jbd4.vercel.app/" target={'_blank'}>
+            <a
+              href="https://cart-redux-jbd4.vercel.app/"
+              target={'_blank'}
+              rel="noreferrer"
+            >
               Demo
             </a>
           </button>
@@ -34,6 +38,7 @@ const property = () => {
             <a
               href="https://github.com/AmayaLuciano/cart-redux"
               target={'_blank'}
+              rel="noreferrer"
             >
               Code
             </a>

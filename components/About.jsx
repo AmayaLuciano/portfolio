@@ -12,7 +12,7 @@ const About = () => {
           </p>
           <h1 className="py-4 dark:text-[#EEEEEE]">Who I Am</h1>
           <p className="py-2 text-gray-600 dark:text-gray-400">
-            I'm Luciano Amaya, self-taught front-end developer, based in
+            I&apos;m Luciano Amaya, self-taught front-end developer, based in
             Argentina
           </p>
           <p className="py-2 text-gray-600 dark:text-gray-400">

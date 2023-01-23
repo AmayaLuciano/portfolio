@@ -10,10 +10,10 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600 dark:text-gray-400">
-            LET'S BUILD SOMETHING TOGETHER
+            LET&apos;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className="py-4 text-gray-700 dark:text-[#EDEDED]">
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="text-[#719FB0] dark:text-[#719FB0]">Luciano</span>
           </h1>
           <h1 className="py-2 text-gray-700 dark:text-[#EDEDED]">
@@ -25,12 +25,17 @@ const Main = () => {
               <a
                 href="https://www.linkedin.com/in/luciano-amaya-972504218/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedinIn className="dark:text-gray-400" />
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a href="https://github.com/AmayaLuciano" target="_blank">
+              <a
+                href="https://github.com/AmayaLuciano"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub className="dark:text-gray-400" />
               </a>
             </div>

@@ -161,7 +161,7 @@ const Navbar = () => {
 
             <div className="border-b border-gray-300 my-4 dark:text-gray-400">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something cool together
+                Let&apos;s build something cool together
               </p>
             </div>
           </div>
@@ -197,19 +197,24 @@ const Navbar = () => {
 
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#719FB0]">
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-4 sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <a
                     href="https://www.linkedin.com/in/luciano-amaya-972504218/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaLinkedinIn className="dark:text-gray-400" />
                   </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="https://github.com/AmayaLuciano" target="_blank">
+                  <a
+                    href="https://github.com/AmayaLuciano"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <FaGithub className="dark:text-gray-400" />
                   </a>
                 </div>
