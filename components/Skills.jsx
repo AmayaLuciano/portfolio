@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import reactIMG from '/../public/assets/skills/html.png';
+import htmlImg from '../public/assets/skills/html.png';
 
 const Skills = () => {
   return (
@@ -14,7 +14,7 @@ const Skills = () => {
           <div className="p-6  shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:shadow-lg">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={reactIMG} width="64" height="64" alt="/" />
+                <Image src={htmlImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center dark:text-gray-400">
                 <h3>HTML</h3>
