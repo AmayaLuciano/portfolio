@@ -1,7 +1,7 @@
-import propertyImg from '../public/assets/projects/property.jpg';
+import estampitiency from '../public/assets/projects/estampitiency.jpg';
 import cryptoImg from '../public/assets/projects/cryptoprice.png';
 import simplecart from '../public/assets/projects/simplecart2.png';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import progressImg from '../public/assets/projects/progress.jpeg';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -14,24 +14,24 @@ const Projects = () => {
         <h2 className="py-4 dark:text-[#EEEEEE]">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
+            title="Estampitiency"
+            backgroundImg={estampitiency}
+            projectUrl="/estampitiency"
           />
           <ProjectItem
-            title="Crypto Price App"
+            title="Crypto Price"
             backgroundImg={cryptoImg}
             projectUrl="/crypto"
           />
           <ProjectItem
-            title="Netflix clone"
+            title="Simple Cart"
             backgroundImg={simplecart}
             projectUrl="/simplecart"
           />
           <ProjectItem
-            title="Tiwtch UI"
-            backgroundImg={twitchImg}
-            projectUrl="/property"
+            title="Coming Soon"
+            backgroundImg={progressImg}
+            projectUrl="/#projects"
           />
         </div>
       </div>

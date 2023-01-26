@@ -20,10 +20,9 @@ const crypto = () => {
           <p>Project </p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            esse officia numquam nam dolore, ducimus asperiores! Vitae eligendi
-            sed, impedit omnis ipsum molestiae aspernatur dolor facere rem
-            exercitationem veniam dolores!
+            A cryptocurrency price tracker which gets the 100 most popular
+            cryptocurrencies from the Coin Gecko API and displays them in a list
+            with stats using React JS.
           </p>
           <button className="px-8 py-2 mt-4 mr-8 shadow-lg dark:shadow-gray-600">
             <a
@@ -52,20 +51,13 @@ const crypto = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" />
-                Tailwind
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> Chakra UI
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Google Api
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Next JS
+                <RiRadioButtonFill className="pr-1" /> Axios
               </p>
             </div>
           </div>

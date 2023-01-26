@@ -20,10 +20,9 @@ const property = () => {
           <p>Project </p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            esse officia numquam nam dolore, ducimus asperiores! Vitae eligendi
-            sed, impedit omnis ipsum molestiae aspernatur dolor facere rem
-            exercitationem veniam dolores!
+            This is Shopping Cart app in which you can add, modified the
+            quantity, delete or clean the cart. Also gives you the toal amount
+            you are spending. This has a global state controlled with Redux.
           </p>
           <button className="px-8 py-2 mt-4 mr-8 shadow-lg dark:shadow-gray-600">
             <a

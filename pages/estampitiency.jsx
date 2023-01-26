@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import propertyImg from '../public/assets/projects/property.jpg';
+import estampitiencyImg from '../public/assets/projects/estampitiency.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -8,7 +8,7 @@ const property = () => {
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
-        <Image fill className="object-cover" src={propertyImg} alt="/" />
+        <Image fill className="object-cover" src={estampitiencyImg} alt="/" />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
           <h2 className="py-2">Property Finder</h2>
           <h3>React Js / Tailwind / Firebase</h3>

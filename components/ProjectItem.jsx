@@ -8,7 +8,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
     hover:bg-gradient-to-r from-[#719FB0] to-[#709dff] dark:shadow-gray-600"
     >
       <Image
-        className="rounded-xl group-hover:opacity-10"
+        className="rounded-xl group-hover:opacity-10 max-h-[280px]"
         height={'200px'}
         src={backgroundImg}
         alt="/"
@@ -17,7 +17,6 @@ const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
         <h3 className="text-2xl text-white tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">React JS</p>
         <Link href={projectUrl}>
           <p className="text-center py-3 text-gray-700 rounded-lg bg-white font-bold text-lg cursor-pointer">
             More Info
