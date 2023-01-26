@@ -10,8 +10,8 @@ const property = () => {
         <div className="absolute top-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
         <Image fill className="object-cover" src={estampitiencyImg} alt="/" />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
-          <h2 className="py-2">Property Finder</h2>
-          <h3>React Js / Tailwind / Firebase</h3>
+          <h2 className="py-2">Estampitiency</h2>
+          <h3>React Js / Typescript / Chakra UI</h3>
         </div>
       </div>
 
@@ -20,16 +20,27 @@ const property = () => {
           <p>Project </p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            esse officia numquam nam dolore, ducimus asperiores! Vitae eligendi
-            sed, impedit omnis ipsum molestiae aspernatur dolor facere rem
-            exercitationem veniam dolores!
+            This is a shopping cart made with React and Typescript, you can add,
+            delete, and modified quantity. This was my first project with TS and
+            I learn a lot and have a lot of fun.
           </p>
           <button className="px-8 py-2 mt-4 mr-8 shadow-lg dark:shadow-gray-600">
-            Demo
+            <a
+              href="https://estampitiency-ochre.vercel.app/"
+              target={'_blank'}
+              rel="noreferrer"
+            >
+              Demo
+            </a>
           </button>
           <button className="px-8 py-2 mt-4 shadow-lg dark:shadow-gray-600">
-            Code
+            <a
+              href="https://github.com/AmayaLuciano/estampitiency"
+              target={'_blank'}
+              rel="noreferrer"
+            >
+              Code
+            </a>
           </button>
         </div>
         <div className="col-span-4 lg:col-span-1 shadow-lg shadow-gray-400 dark:shadow-gray-600 rounded-xl p-4 dark:text-gray-300">
@@ -41,19 +52,10 @@ const property = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
                 <RiRadioButtonFill className="pr-1" />
-                Tailwind
+                Typescript
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Google Api
-              </p>
-              <p className="text-gray-600 py-2 flex items-center dark:text-gray-300">
-                <RiRadioButtonFill className="pr-1" /> Next JS
+                <RiRadioButtonFill className="pr-1" /> Chakra UI
               </p>
             </div>
           </div>
