@@ -2,6 +2,7 @@ import estampitiency from '../public/assets/projects/estampitiency.jpg';
 import cryptoImg from '../public/assets/projects/cryptoprice.png';
 import simplecart from '../public/assets/projects/simplecart2.png';
 import progressImg from '../public/assets/projects/progress.jpeg';
+import aerolabImg from '../public/assets/projects/aerolab.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -29,9 +30,9 @@ const Projects = () => {
             projectUrl="/simplecart"
           />
           <ProjectItem
-            title="Coming Soon"
-            backgroundImg={progressImg}
-            projectUrl="/#projects"
+            title="Aerolab Challenge"
+            backgroundImg={aerolabImg}
+            projectUrl="/aerolab"
           />
         </div>
       </div>
